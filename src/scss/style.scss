@@ -1,3 +1,91 @@
-.test {
-    background-color: red;
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+* {
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
+
+header {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.00));
+}
+
+#title {
+    display: inline-block;
+    padding-left: 20px;
+    color: white;
+}
+
+.nav-bar {
+    display: inline-block;
+    float: right;
+    margin: 20px 0px;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline;
+            padding-right: 2.0em;
+            color: white;
+        }
+    }
+}
+
+#first-hero-container {
+    background-image: url('../vendor/stock-sushi-image-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25em;
+}
+
+.about-us {
+    padding-top: 1em;
+    background-color: #D0F0C0;
+}
+
+#about-us-text {
+    display: inline-block;
+    width: 40%;
+    line-height: 25px;
+    padding-left: 20px;
+}
+
+#about-us-photo {
+    display: inline-block;
+    height: 20em;
+    width: 48%;
+    float: right;
+    background-image: url('../vendor/stock-food-image-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.days {
+    display: inline-block;
+    ul {
+        list-style-type: none;
+    }
+    text-align: left;
+}
+
+.times {
+    display: inline-block;
+    ul {
+        list-style-type: none;
+    }
+    text-align: left;
+}
+.locations{
+    text-align: center;
+}
+.location-lex {
+    display: inline-block;
+}
+
+.location-cre {
+    display: inline-block;
+}
+
+
